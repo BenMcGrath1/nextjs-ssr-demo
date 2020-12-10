@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -14,6 +15,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  font-size: 1.3rem;
 }
 
 .footer {
@@ -35,9 +46,13 @@
   align-items: center;
 }
 
+
 .title a {
   color: #0070f3;
   text-decoration: none;
+  background: -webkit-linear-gradient(45deg, #464D77, #f8333c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title a:hover,
@@ -48,6 +63,7 @@
 
 .title {
   margin: 0;
+  margin-bottom: 2rem;
   line-height: 1.15;
   font-size: 4rem;
 }

@@ -1,0 +1,13 @@
+.albumCard {
+  color: #fff;
+  margin: 2rem;
+  border-radius: 10px;
+  background-color: #464D77;
+  padding: 1rem;
+}
+
+.albumCardContainer {
+  max-width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+} 
