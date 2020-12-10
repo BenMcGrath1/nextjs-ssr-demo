@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import AlbumCard from './AlbumCard';
 
 const JOHNNY_CASH_ID = '6kACVPfCOnqzgfEF5ryl0x'
-const THE_CLASH_ID = '5fsDcuclIe8ZiBD5P787K1'
+const THE_CLASH_ID = '3RGLhK1IP9jnYFH4BRFJBS'
 
 class AlbumsList extends React.Component {
   constructor(props) {
